@@ -3,7 +3,6 @@ fun = fun.replace(" ","")
 if fun =="проверка":
     link=input("Введите ссылку для проверки: ")
     link = link.split()
-    #print(type(link))
     with open ("base.txt","r") as base:
         base = (base.read())
         base = base.split(",")
@@ -18,12 +17,6 @@ if fun =="проверка":
         if list[link]in new_base:
             print("Попався")
         
-            
-            
-        #print(new_base)
-        #print(type(new_base))
-
-
 elif fun =="добавить" : 
     link = input("Введите ссылку или исполльзуйте пробелы для разделения ссылок: ")
     link += " "+link
