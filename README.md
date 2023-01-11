@@ -1,11 +1,17 @@
 # VK_bot
+
+<div id="header" align="center"><img src="https://media.giphy.com/media/4fGNh8cEOdGWa2hA4z/giphy.gif" width="150" height ="100"/>
+  
+</div>
+
+
 EN
 ==
 The purpose of this program is to monitor chats in the social network Vkontakte, as well as maintain a database.
 
 FOR EXAMPLE
 ==
-Add a bot to your chat, each bot who enters checks in the database, if there is a user in it, she kicks him from the chat, otherwise he greets.
+The user enters the chat, the bot checks if it is in the database, if it is, it kicks, otherwise it greet
 
 RU
 ==
