@@ -16,6 +16,8 @@ if fun =="проверка":
         print(new_base)
         if list[link]in new_base:
             print("Попався")
+        else:
+            print("НЕТУ")
         
 elif fun =="добавить" : 
     link = input("Введите ссылку или используйте пробелы для разделения ссылок: ")
